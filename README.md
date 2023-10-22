@@ -8,6 +8,7 @@ Open your docker daemon configuration file for editing. It should be located her
 - For Windows: C:\ProgramData\docker\config\daemon.json
 - For Mac: ~/.docker/daemon.json
 - Otherwise: /etc/docker/daemon.json
+
 Add the following config lines:
 ```
   "default-address-pools" : [
@@ -18,7 +19,8 @@ Add the following config lines:
   ]
 ```
 
-Base could be different if you have the one mentioned above not available. The most important, it can't be 172.17.x.x :)
+"base" could be different if you have the one mentioned above not available. The most important, it can't be 172.17.x.x :)
+
 Save the file and restart your docker daemon:
 - For Windows and Mac: restart your Docker Desktop service
 - Otherwise: 
