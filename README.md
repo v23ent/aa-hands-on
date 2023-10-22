@@ -35,7 +35,9 @@ docker compose up -d
 
 4. Navigate with your to a dummy notebook and execute the first block of code.
 [http://localhost:8888/notebooks/aa-demo-exercise.ipynb]()
-It will install 'atscale' package with dependencies. We will be adding other blocks during hands-on.
+
+It will install 'atscale' package with dependencies. If all goes well then you're ready go with AI-Link for Adaptive Analytics hands-on!
+We will be adding other blocks of code during hands-on session.
 
 
 That's it!
