@@ -2,7 +2,7 @@
 This is a repository to perform quick pre-setup for Adaptive Analytics session on SE Summit 2023.
 
 # Setup
-1. Pull this repository or download a .zip file and unzip to your local folder. Then navigate to a project's folder.
+1. Clone this repository or download a .zip file and unzip to your local folder. Then navigate to a project's folder.
 2. Change you docker default network IP subnets by amending docker config file and restarting docker service:
 Open your docker daemon configuration file for editing. It should be located here:
 - For Windows: C:\ProgramData\docker\config\daemon.json
