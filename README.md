@@ -33,7 +33,10 @@ sudo systemctl restart docker
 docker compose up -d
 ```
 
-4. Navigate with your to a dummy notebook and execute the first block of code. It will install 'atscale' package with dependencies. We will be adding other blocks during hands-on.
+4. Navigate with your to a dummy notebook and execute the first block of code.
+[http://localhost:8888/notebooks/aa-demo-exercise.ipynb]()
+It will install 'atscale' package with dependencies. We will be adding other blocks during hands-on.
+
 
 That's it!
 
