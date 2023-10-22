@@ -42,3 +42,20 @@ We will be adding other blocks of code during hands-on session.
 
 That's it!
 
+# Cleanup
+1. Stop your containers
+```
+docker compose down
+```
+
+2. Delete added docker daemon config lines:
+```
+  "default-address-pools" : [
+    {
+      "base" : "198.0.0.0/16",
+      "size" : 24
+    }
+  ]
+```
+3. Restart docker service on your machine in the same way as in Setup.
+
