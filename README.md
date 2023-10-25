@@ -5,7 +5,7 @@ This is a repository to perform AI-link exercise for Adaptive Analytics session 
 1. Clone this repository or download a .zip file and unzip to your local folder. Then navigate to a project's folder.
 
 ```
-git clone https://github.com/v23ent/aa-hands-on.git
+git clone https://github.com/v23ent/aa-hands-on.git && \
 cd aa-hands-on
 ```
 
