@@ -1,8 +1,14 @@
 # SE Summit 2023 - Adaptive Analytics hands-on
-This is a repository to perform quick pre-setup for Adaptive Analytics session on SE Summit 2023.
+This is a repository to perform AI-link exercise for Adaptive Analytics session on SE Summit 2023.
 
 # Setup
 1. Clone this repository or download a .zip file and unzip to your local folder. Then navigate to a project's folder.
+
+```
+git clone https://github.com/v23ent/aa-hands-on.git
+cd aa-hands-on
+```
+
 2. Change you docker default network IP subnets by amending docker config file and restarting docker service:
 Open your docker daemon configuration file for editing. It should be located here:
 - For Windows: C:\ProgramData\docker\config\daemon.json
