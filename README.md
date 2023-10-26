@@ -2,12 +2,15 @@
 This is a repository to perform AI-link exercise for Adaptive Analytics session on SE Summit 2023.
 
 # Setup
+
 1. Clone this repository or download a .zip file and unzip to your local folder. Then navigate to a project's folder.
 
 ```
 git clone https://github.com/v23ent/aa-hands-on.git && \
 cd aa-hands-on
 ```
+
+:information_source: In case you have Jupyter already installed on your host and would like to avoid fiddling with Docker networking options, you can also just run `jupyter notebook` from the project folder and skip to step 4
 
 2. Change you docker default network IP subnets by amending docker config file and restarting docker service:
 Open your docker daemon configuration file for editing. It should be located here:
